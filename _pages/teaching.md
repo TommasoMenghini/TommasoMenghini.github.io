@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /cv/
-title: Curriculum Vitae
-description: Ecco il mio cv (aggiornato al Dicembre 2025)
+title: cv
+description: Ecco il mio curriculum vitae (aggiornato al Dicembre 2025)
 nav: true
 nav_order: 2
 ---
