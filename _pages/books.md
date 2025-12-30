@@ -1,10 +1,9 @@
 ---
-layout: book-shelf
-title: Libreria
+layout: page
+title: libreria
 permalink: /books/
 nav: true
 nav_order: 5
-collection: books
 ---
 
 **Leggere** è una mia passione. Di seguito la lista dei libri che ho letto (aggiornata al Dicembre del 2025):
