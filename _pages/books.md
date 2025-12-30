@@ -61,7 +61,7 @@ nav_order: 5
 5. Il colosso di Marussi - Henry Miller
 6. Notti bianche - Fëdor Dostoevskij
 7. Mentre Buddha sorride - Charles Bukowski
-8. 100 anni di solitudine - Gabriel Garcia Marquez
+8. Cent'anni di solitudine - Gabriel Garcia Marquez
 9. Aspetta primavera, Bandini - John Fante
 10. La strada per Los Angeles - John Fante
 11. Fiesta - Ernest Hemingway
@@ -101,19 +101,19 @@ nav_order: 5
 1. Per chi suona la campana - Ernest Hemingway
 2. Musica per organi caldi - Charles Bukowski
 3. Dance Dance Dance - Haruki Murakami
-4. I sotteranei - Jack Kerouac
-5. Siddartha - Hermann Hesse
+4. I sotterranei - Jack Kerouac
+5. Siddharta - Hermann Hesse
 6. A ovest di Roma - John Fante
 7. Donne - Charles Bukowski
-8. L'assassionio del commendatore - Haruki Murakami
+8. L'assassinio del commendatore - Haruki Murakami
 9. La luna e i falò - Cesare Pavese
-10. Ragazzi di vita - Pierpaolo Pasolini
+10. Ragazzi di vita - Pier Paolo Pasolini
 11. Il gioco del rovescio - Antonio Tabucchi
 12. Le avventure di Tom Sawyer - Mark Twain
 13. La ragazza dello Sputnik - Haruki Murakami
 14. I miei giorni alla libreria Morisaki - Satoshi Yagisawa
 15. Lord Jim - Joseph Conrad
-16. Le avventure di Huckleberry Finn - Mar Twain
+16. Le avventure di Huckleberry Finn - Mark Twain
 17. Il conte di Montecristo - Alexandre Dumas
 18. L'Aleph - Jorge Luis Borges
 19. L'amore ai tempi del colera - Gabriel Garcia Marquez
@@ -126,14 +126,14 @@ nav_order: 5
 ## 2025
 
 1. Vuoi star zitta per favore? - Raymond Carver
-2. Pasto nudo - William Burroghs
+2. Pasto nudo - William Burroughs
 3. Pulp - Charles Bukowski
 4. Di cosa parliamo quando parliamo d'amore - Raymond Carver
 5. On the road [EN] - Jack Kerouac
 6. Nietzsche - Estratti (Corriere della Sera)
 7. L'isola di Arturo - Elsa Morante
 8. La bella estate - Cesare Pavese
-9. L'incolore Tazaki Tsukuru e i suou anni di pellegrinaggio - Haruki Murakami
+9. L'incolore Tazaki Tsukuru e i suoi anni di pellegrinaggio - Haruki Murakami
 10. Il compagno - Cesare Pavese
 11. I racconti - Franz Kafka
 12. Il partigiano Johnny - Giuseppe Fenoglio
