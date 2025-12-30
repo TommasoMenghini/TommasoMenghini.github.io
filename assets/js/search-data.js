@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-libreria",
-          title: "Libreria",
+          title: "libreria",
           description: "",
           section: "Navigation",
           handler: () => {
