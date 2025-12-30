@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "Ecco il mio curriculum vitae (aggiornato al Dicembre 2025)",
           section: "Navigation",
