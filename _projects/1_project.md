@@ -2,7 +2,7 @@
 layout: page
 title: Sondaggi elettorali in Italia (2018–2024)
 description: Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali
-img: assets/img/Screenshot 2026-01-24 165449
+img: assets/img/Screenshot 2026-01-24 165449.png
 importance: 1
 category: work
 related_publications:
