@@ -37,7 +37,7 @@ related_publications:
 </div>
 
 
-<div class="row mb-4">
+<div class="row mb-5">
   <!-- cards -->
 </div>
 
