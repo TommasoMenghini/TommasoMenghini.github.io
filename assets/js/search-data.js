@@ -416,8 +416,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-sondaggi-elettorali-in-italia-2018-2024",
-          title: 'Sondaggi elettorali in Italia (2018–2024)',
+          section: "News",},{id: "projects-tesi-magistrale",
+          title: 'Tesi Magistrale',
           description: "Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
