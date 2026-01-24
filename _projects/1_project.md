@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sondaggi elettorali in Italia (2018–2024)
+title: Tesi Magistrale
 description: Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali
 img: assets/img/Screenshot 2026-01-24 165449.png
 importance: 1

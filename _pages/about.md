@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-Ciao, sono Tommaso Menghini. Sono nato a Fano, una città di **mare** in provincia di Pesaro-Urbino nelle Marche, il 4 Agosto del 2001. Nel tempo libero mi piace **leggere** e **guardare** il calcio.
+Ciao, sono Tommaso Menghini. Sono nato a Fano, una città di **mare** in provincia di Pesaro-Urbino nelle Marche, il 4 Agosto del 2001. Sono appassionato di **lettura** e **calcio**.
 
 
 Dopo aver frequentato il liceo scientifico ho deciso di proseguire gli studi a Milano, all'[Università degli Studi Milano-Bicocca](https://www.unimib.it/) frequentando il corso triennale e poi magistrale in Scienze Statistiche ed Economiche. Ho intrapreso questo percorso perché mi piaceva Matematica e perché attratto dalla natura ecclettica della materia. Del resto la **Statistica** è definita come scienza *ancillare*, in quanto presente trasversalmente in quasi tutte le discipline scientifiche. 
