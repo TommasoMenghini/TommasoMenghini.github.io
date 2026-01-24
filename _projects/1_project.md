@@ -10,7 +10,14 @@ related_publications:
   - shirani2018disentangling
 ---
 
+**Links**
+- 📄 [Tesi (PDF)](\assets\pdf\Tesi_corretta.pdf)
+- 🖥️ [Slides (PDF)](\assets\pdf\Slide_Tesi_Versione_Completa.pdf)
+
+
 I sondaggi elettorali rappresentano lo strumento più efficienti per misurare le opinioni di un’intera popolazione, ma costituiscono al contempo un elemento delicato e spesso controverso del processo democratico. È noto in letteratura che i sondaggi pre-elettorali siano affetti da un insieme di errori di campionamento e non, comunemente indicati come total survey error. 
+
+I riferimenti principali di questo lavoro sono stati {% cite gelman2021failure %} e {% cite shirani2018disentangling %}.
 
 In questo studio sono stati analizzati 1676 sondaggi elettorali condotti in Italia tra il 2018 e il 2024. Per ogni sondaggio erano disponibili le principali informazioni strutturali e le stime delle intenzioni di voto per un insieme di partiti politici. L’analisi è stata limitata alle principali forze politiche presenti stabilmente nel periodo considerato e agli istituti demoscopici che disponevano di un numero sufficiente di rilevazioni pre-elettorali per tutte le elezioni analizzate. 
 
@@ -24,9 +31,6 @@ La prima analisi ha mostrato che la variabile Istituto non risulta statisticamen
 
 La seconda analisi, basata sul valore assoluto dell’errore relativo, conferma questo risultato: una volta controllato per il contesto attraverso Partito, Elezione e la loro interazione, le agenzie demoscopiche analizzate appaiono sostanzialmente intercambiabili in termini di affidabilità. Alla luce di tali evidenze, si conclude con una discussione critica del Poll of Polls, il quale non rappresenta una soluzione ai limiti strutturali dei sondaggi pre-elettorali. 
 
-**Links**
-- 📄 [Tesi (PDF)](\assets\pdf\Tesi_corretta.pdf)
-- 🖥️ [Slides (PDF)](\assets\pdf\Slide_Tesi_Versione_Completa.pdf)
 
-Test citations: {% cite gelman2021failure %}; {% cite shirani2018disentangling %}.
+
 
