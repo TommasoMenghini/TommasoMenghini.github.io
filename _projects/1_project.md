@@ -37,6 +37,10 @@ related_publications:
 </div>
 
 
+<div class="row mb-4">
+  <!-- cards -->
+</div>
+
 
 I sondaggi elettorali rappresentano lo strumento più efficienti per misurare le opinioni di un’intera popolazione, ma costituiscono al contempo un elemento delicato e spesso controverso del processo democratico. È noto in letteratura che i sondaggi pre-elettorali siano affetti da un insieme di errori di campionamento e non, comunemente indicati come total survey error. 
 
