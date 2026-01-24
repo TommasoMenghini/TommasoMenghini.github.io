@@ -28,3 +28,5 @@ La seconda analisi, basata sul valore assoluto dell’errore relativo, conferma 
 - 📄 [Tesi (PDF)](\assets\pdf\Tesi_corretta.pdf)
 - 🖥️ [Slides (PDF)](\assets\pdf\Slide_Tesi_Versione_Completa.pdf)
 
+Test citations: {% cite gelman2021failure %}; {% cite shirani2018disentangling %}.
+
