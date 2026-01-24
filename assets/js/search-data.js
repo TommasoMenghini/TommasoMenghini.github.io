@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "Ecco il mio curriculum vitae (aggiornato al Dicembre 2025)",
+          description: "Ecco il mio curriculum vitae (aggiornato al Gennaio 2026)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Sintesi di alcuni miei progetti.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -416,9 +416,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-sondaggi-elettorali-in-italia-2018-2024",
+          title: 'Sondaggi elettorali in Italia (2018–2024)',
+          description: "Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
