@@ -12,6 +12,6 @@ related_publications:
 [abstract sintetico della tesi]
 
 **Links**
-- 📄 [Thesis (PDF)](assets/pdf/tesi.pdf)
-- 🖥️ [Slides (PDF)](assets/pdf/slides_tesi.pdf)
+- 📄 [Thesis (PDF)](assets/pdf/Tesi_corretta.pdf)
+- 🖥️ [Slides (PDF)](assets/pdf/Slides_Tesi_Versione_Completa.pdf)
 
