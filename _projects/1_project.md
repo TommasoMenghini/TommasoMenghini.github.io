@@ -10,21 +10,12 @@ related_publications:
   - shirani2018disentangling
 ---
 
-<div class="project-links">
-  <a class="btn btn-primary btn-sm" href="/assets/pdf/Tesi_corretta.pdf" target="_blank">
-    📄 Thesis (PDF)
-  </a>
-  <a class="btn btn-outline-primary btn-sm" href="/assets/pdf/Slide_Tesi_Versione_Completa.pdf" target="_blank">
-    🖥️ Slides (PDF)
-  </a>
-</div>
-
 <div class="row mt-3">
   <div class="col-md-6">
     <div class="card h-100">
       <div class="card-body">
-        <h5 class="card-title">📄 Thesis</h5>
-        <p class="card-text">Full PDF version of the thesis.</p>
+        <h5 class="card-title">📄 Tesi </h5>
+        <p class="card-text"> Tesi magistrale completa in pdf.</p>
         <a href="/assets/pdf/Tesi_corretta.pdf" class="btn btn-primary" target="_blank">
           Download PDF
         </a>
@@ -35,22 +26,16 @@ related_publications:
   <div class="col-md-6">
     <div class="card h-100">
       <div class="card-body">
-        <h5 class="card-title">🖥️ Slides</h5>
-        <p class="card-text">Presentation slides.</p>
+        <h5 class="card-title">🖥️ Slide </h5>
+        <p class="card-text">Slide presentazione in pdf.</p>
         <a href="/assets/pdf/Slide_Tesi_Versione_Completa.pdf" class="btn btn-outline-primary" target="_blank">
-          View slides
+          Download PDF
         </a>
       </div>
     </div>
   </div>
 </div>
 
-
-<p>
-  <strong>Resources:</strong><br>
-  👉 <a href="/assets/pdf/Tesi_corretta.pdf" target="_blank"><strong>Thesis (PDF)</strong></a><br>
-  👉 <a href="/assets/pdf/Slide_Tesi_Versione_Completa.pdf" target="_blank"><strong>Slides (PDF)</strong></a>
-</p>
 
 
 I sondaggi elettorali rappresentano lo strumento più efficienti per misurare le opinioni di un’intera popolazione, ma costituiscono al contempo un elemento delicato e spesso controverso del processo democratico. È noto in letteratura che i sondaggi pre-elettorali siano affetti da un insieme di errori di campionamento e non, comunemente indicati come total survey error. 
