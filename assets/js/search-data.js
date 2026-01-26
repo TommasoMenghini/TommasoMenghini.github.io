@@ -476,6 +476,13 @@ ninja.data = [{
           window.open("mailto:%74%6F%6D%6D%61%73%6F%6D%65%6E%67%68%69%6E%69@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/tommaso-menghini-3b99b23a8", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
