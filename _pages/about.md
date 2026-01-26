@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: provaGithub.JPG
+  image: IMG_5040.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
      <p>Fano (PU), Italia </p>
