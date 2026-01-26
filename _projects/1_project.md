@@ -28,7 +28,7 @@ related_publications:
       <div class="card-body">
         <h5 class="card-title">🖥️ Slide </h5>
         <p class="card-text">Slide presentazione in pdf.</p>
-        <a href="/assets/pdf/Slide_Tesi_Versione_Completa.pdf" class="btn btn-outline-primary" target="_blank">
+        <a href="/assets/pdf/Slide_Tesi_Magistrale_Versione_Completa.pdf" class="btn btn-outline-primary" target="_blank">
           Download PDF
         </a>
       </div>
