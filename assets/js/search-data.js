@@ -416,9 +416,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-tesi-magistrale",
-          title: 'Tesi Magistrale',
-          description: "Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali",
+          section: "News",},{id: "projects-l-39-affidabilità-dei-sondaggi-elettorali",
+          title: 'L&amp;#39;Affidabilità dei Sondaggi Elettorali',
+          description: "Studio sull&#39;affidabilità statistica degli istituti demoscopici e delle loro distorsioni sistematiche",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-mercato-immobiliare-a-milano",
