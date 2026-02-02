@@ -31,14 +31,6 @@ L’obiettivo è individuare gruppi di nazioni con caratteristiche simili senza 
 
 Il modello bayesiano consente di identificare cluster interpretabili di paesi, evidenziare osservazioni ambigue o di confine, quantificare l’incertezza associata alla soluzione di clustering.
 
-<figure>
-  <img src="/assets/img/gg_world.png"
-       alt="Clustering bayesiano Country Help">
-  <figcaption>
-    Clustering bayesiano dei paesi nel dataset <em>Country Help</em>.
-  </figcaption>
-</figure>
-
 Il grafico mostra il risultato del clustering ottenuto. Vengono individuati **sei** gruppi distinti di paesi.
 
 Il cluster **verde** raccoglie le nazioni più sviluppate dal punto di vista socio-economico e sanitario, appartenenti al cosiddetto “Occidente” in senso politico ed economico, indipendentemente dalla posizione geografica. Ne fanno parte, ad esempio, Giappone, Corea del Sud e Australia.
