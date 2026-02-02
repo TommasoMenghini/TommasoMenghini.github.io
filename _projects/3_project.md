@@ -2,7 +2,7 @@
 layout: page
 title: Clustering Bayesiano 
 description: Salso e Greedy Search, algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale
-img: assets/img/7.jpg
+img: assets/img/gg_world.png
 importance: 3
 category: work
 related_publications:
