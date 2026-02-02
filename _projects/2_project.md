@@ -5,7 +5,9 @@ description: Generalized Additive Models per la Previsione dei Prezzi delle Case
 img: assets/img/IMG_6576.JPG
 importance: 2
 category: work
-giscus_comments: true
+related_publications:
+  - Gelman_Hill_2006
+  - Wood2003
 ---
 
 <div class="row mt-3">
@@ -64,4 +66,4 @@ Il modello ottiene un **Mean Absolute Error** di circa 79.000 € sul validation
 
 Uno dei principali punti di forza di questo approccio è l’interpretabilità: i grafici degli effetti parziali permettono di studiare come ciascuna covariata influenzi il prezzo mantenendo costanti tutte le altre.
 
-Codice completo e dettagli tecnici sono disponibili nella repository GitHub al seguente [link](https://github.com/TommasoMenghini/Milan-Housing)
+Il codice completo e i dettagli tecnici sono disponibili nella repository GitHub al seguente [link](https://github.com/TommasoMenghini/Milan-Housing).
