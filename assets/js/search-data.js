@@ -426,9 +426,9 @@ ninja.data = [{
           description: "Generalized Additive Models per la Previsione dei Prezzi delle Case a Milano",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-clustering-bayesiano-con-modelli-di-mistura-di-processi-di-dirichlet",
+          title: 'Clustering Bayesiano con Modelli di Mistura di Processi di Dirichlet',
+          description: "Salso e Greedy Search, algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
