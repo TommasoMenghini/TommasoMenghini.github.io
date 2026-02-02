@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tesi Magistrale
-description: Distorsioni sistematiche e affidabilità dei sondaggi pre-elettorali
+title: L'Affidabilità dei Sondaggi Elettorali
+description: Studio sull'affidabilità statistica degli istituti demoscopici e delle loro distorsioni sistematiche
 img: assets/img/Screenshot 2026-01-24 165449.png
 importance: 1
 category: work
