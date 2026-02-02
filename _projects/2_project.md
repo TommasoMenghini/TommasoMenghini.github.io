@@ -22,18 +22,6 @@ related_publications:
       </div>
     </div>
   </div>
-
-  <div class="col-md-6">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">🖥️ Slide </h5>
-        <p class="card-text">Slide presentazione in pdf.</p>
-        <a href="/assets/pdf/Slide_Tesi_Magistrale_Versione_Completa.pdf" class="btn btn-outline-primary" target="_blank">
-          Download PDF
-        </a>
-      </div>
-    </div>
-  </div>
 </div>
 
 
