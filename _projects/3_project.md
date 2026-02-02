@@ -1,81 +1,57 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Clustering Bayesiano con Modelli di Mistura di Processi di Dirichlet
+description: Salso e Greedy Search: algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
+related_publications:
+  - wade2018
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Questo progetto è stato sviluppato in collaborazione con il mio amico e compagno d'università Tommaso Pozzi.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Il **clustering** è una disciplina della statistica e del machine learning ampiamente utilizzata per individuare pattern nascosti in dati complessi, difficilmente osservabili a occhio nudo.
+Gli algoritmi di clustering più classici, come **k-means** o i metodi gerarchici, vengono spesso applicati in contesti in cui non si dispone di informazioni preliminari sulla struttura dei dati. Tuttavia, questi approcci presentano alcune limitazioni rilevanti, come la sensibilità ai minimi locali e la necessità di specificare a priori il numero di cluster.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Un’alternativa più flessibile è rappresentata dai **modelli di mistura**, che assumono una distribuzione probabilistica per descrivere la struttura dei gruppi presenti nei dati. In questo progetto si sono studiati metodi di clustering bayesiani non parametrici, seguendo l’impostazione proposta da {% cite wade2018 %}, che consente di incorporare informazioni a priori e di modellare in modo esplicito l’incertezza.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+I modelli di mistura non parametrici, come i **Dirichlet Process Mixture Models**, assumono un numero teoricamente infinito di componenti. Questa caratteristica li rende particolarmente flessibili, poiché il numero di cluster può crescere con la dimensione del campione, senza essere fissato in anticipo. L’approccio bayesiano permette inoltre di costruire una distribuzione a posteriori sullo spazio delle partizioni, offrendo una rappresentazione completa dell’**incertezza** associata al clustering.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Un tema centrale del progetto è la sintesi della distribuzione a posteriori delle partizioni. Poiché l’output del modello non è una singola soluzione di clustering, ma un insieme di partizioni plausibili, è necessario adottare un criterio decisionale per individuare una partizione rappresentativa.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+A questo scopo si sono analizzati diversi approcci basati sulla **posterior similarity matrix**, implementando e confrontando differenti funzioni di perdita in particolare la **Binder loss** - e la sua versione generalizzata- e la **Variation of Information (VI) loss**. Queste funzioni permettono di confrontare partizioni diverse e di selezionare quella che minimizza la perdita attesa a posteriori.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Nel progetto si sono confrontati due algoritmi di ottimizzazione della partizione. Il **Greedy**, un algoritmo deterministico basato su miglioramenti locali e il **SALSO**, un approccio più recente progettato per essere più efficiente su dataset di grandi dimensioni.
 
-{% raw %}
+Attraverso uno studio di simulazione si è analizzato il comportamento dei due algoritmi al variare della dimensione campionaria e di alcuni parametri del modello. I risultati mostrano che, pur producendo soluzioni simili in termini di qualità del clustering, **SALSO** risulta più efficiente per campioni numerosi, mentre **Greedy** si dimostra più adatto a dataset più piccoli o strutture più semplici.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Viene proposto anche un'applicazione ad un dataset reale, **Country Help**, contenente indicatori socio-economici di diversi paesi.
+L’obiettivo è individuare gruppi di nazioni con caratteristiche simili senza imporre a priori il numero di cluster.
 
-{% endraw %}
+Il modello bayesiano consente di identificare cluster interpretabili di paesi, evidenziare osservazioni ambigue o di confine, quantificare l’incertezza associata alla soluzione di clustering.
+
+<figure>
+  <img src="/assets/img/gg_world.png"
+       alt="Clustering bayesiano Country Help">
+  <figcaption>
+    Clustering bayesiano dei paesi nel dataset <em>Country Help</em>.
+  </figcaption>
+</figure>
+
+Il grafico mostra il risultato del clustering ottenuto. Vengono individuati **sei** gruppi distinti di paesi.
+
+Il cluster **verde** raccoglie le nazioni più sviluppate dal punto di vista socio-economico e sanitario, appartenenti al cosiddetto “Occidente” in senso politico ed economico, indipendentemente dalla posizione geografica. Ne fanno parte, ad esempio, Giappone, Corea del Sud e Australia.
+
+Il cluster **rosso** include paesi che nel 2010 potevano essere associati al cosiddetto Secondo Mondo, caratterizzati da economie fortemente industrializzate ma con standard di vita non sempre elevati. Esempi significativi sono la Federazione Russa e il Brasile, economie fortemente dipendenti dall’esportazione di materie prime.
+
+Il cluster **giallo** è concentrato prevalentemente nell’Africa subsahariana e nel subcontinente indiano e identifica paesi meno sviluppati dal punto di vista economico, politico e sociale.
+
+Il cluster **arancione** comprende un numero ristretto di stati della Penisola Arabica (tra cui Arabia Saudita, Qatar ed Emirati Arabi Uniti), accomunati da un’elevata ricchezza derivante dall’esportazione di petrolio, ma caratterizzata da una forte disuguaglianza nella distribuzione delle risorse.
+
+Gli ultimi due cluster **(viola e blu)** raccolgono paesi con caratteristiche più eterogenee o specifiche, come piccoli stati altamente finanziarizzati e fiscalmente attrattivi.
+
+Nel complesso, il risultato mostra come il clustering bayesiano riesca a catturare pattern socio-economici globali coerenti e interpretabili, senza imporre a priori il numero di gruppi.
+
+Il codice completo e l’analisi dettagliata dell’esempio applicativo sono disponibili nella
+repository GitHub a questo [link](https://github.com/TommasoMenghini/DPM-Models-for-Bayesian-Clustering/tree/main).
