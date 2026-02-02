@@ -6,8 +6,8 @@ img: assets/img/IMG_6576.JPG
 importance: 2
 category: work
 related_publications:
-  - Gelman_Hill_2006
-  - Wood2003
+  - gelman_hill_2006
+  - wood2003
 ---
 
 <div class="row mt-3">
