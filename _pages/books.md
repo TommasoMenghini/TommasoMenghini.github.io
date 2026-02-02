@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-**Leggere** è una mia passione, di seguito la lista dei libri che ho letto (aggiornata al Dicembre del 2025):
+**Leggere** è una mia passione, di seguito la lista dei libri che ho letto (aggiornata al Febbraio del 2026):
 
 ## Pre - 2021
 
@@ -146,3 +146,9 @@ nav_order: 5
 19. La mente inquieta - Massimo Cacciari
 20. Libertà e Amore - Pietro del Soldà
 21. Lessico Famigliare - Natalia Ginzburg
+
+## 2026
+
+1. Memorie di Adriano - Marguerite Yourcenar
+2. L'omicidio di Piersanti Mattarella - Miguel Gotor
+3. Il processo - Franz Kafka

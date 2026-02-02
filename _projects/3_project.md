@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clustering Bayesiano con Modelli di Mistura di Processi di Dirichlet
-description: Salso e Greedy Search: algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale
+description: Salso e Greedy Search, algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale
 img: assets/img/7.jpg
 importance: 3
 category: work
@@ -30,6 +30,14 @@ Viene proposto anche un'applicazione ad un dataset reale, **Country Help**, cont
 L’obiettivo è individuare gruppi di nazioni con caratteristiche simili senza imporre a priori il numero di cluster.
 
 Il modello bayesiano consente di identificare cluster interpretabili di paesi, evidenziare osservazioni ambigue o di confine, quantificare l’incertezza associata alla soluzione di clustering.
+
+<figure>
+  <img src="/assets/img/gg_world.png"
+       alt="Clustering bayesiano Country Help">
+  <figcaption>
+    Clustering bayesiano dei paesi nel dataset <em>Country Help</em>.
+  </figcaption>
+</figure>
 
 Il grafico mostra il risultato del clustering ottenuto. Vengono individuati **sei** gruppi distinti di paesi.
 
