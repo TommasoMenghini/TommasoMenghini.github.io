@@ -2,7 +2,7 @@
 layout: page
 title: L'Affidabilità dei Sondaggi Elettorali
 description: Studio sull'affidabilità statistica degli istituti demoscopici e delle loro distorsioni sistematiche
-img: assets/img/Screenshot 2026-01-24 165449.png
+img: assets/img/IMG_6581.JPG
 importance: 1
 category: work
 related_publications:
