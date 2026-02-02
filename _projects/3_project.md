@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Clustering Bayesiano con Modelli di Mistura di Processi di Dirichlet
+title: Clustering Bayesiano 
 description: Salso e Greedy Search, algoritmi a confronto per l’ottimizzazione bayesiana del clustering dei dati attraverso processo decisionale
 img: assets/img/7.jpg
 importance: 3
@@ -10,6 +10,38 @@ related_publications:
 ---
 
 Questo progetto è stato sviluppato in collaborazione con il mio amico e compagno d'università Tommaso Pozzi.
+
+
+<div class="row mt-3">
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">📄 Report </h5>
+        <p class="card-text"> Report completo in pdf.</p>
+        <a href="/assets/pdf/Progetto_Manhattan_5 (3).pdf" class="btn btn-primary" target="_blank">
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">🖥️ Slide </h5>
+        <p class="card-text">Slide presentazione in pdf.</p>
+        <a href="/assets/pdf/Slide_Progetto_Manhattan (2).pdf" class="btn btn-outline-primary" target="_blank">
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row mb-5">
+  <!-- cards -->
+</div>
 
 Il **clustering** è una disciplina della statistica e del machine learning ampiamente utilizzata per individuare pattern nascosti in dati complessi, difficilmente osservabili a occhio nudo.
 Gli algoritmi di clustering più classici, come **k-means** o i metodi gerarchici, vengono spesso applicati in contesti in cui non si dispone di informazioni preliminari sulla struttura dei dati. Tuttavia, questi approcci presentano alcune limitazioni rilevanti, come la sensibilità ai minimi locali e la necessità di specificare a priori il numero di cluster.
