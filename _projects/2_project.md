@@ -66,4 +66,6 @@ Il modello ottiene un **Mean Absolute Error** di circa 79.000 € sul validation
 
 Uno dei principali punti di forza di questo approccio è l’interpretabilità: i grafici degli effetti parziali permettono di studiare come ciascuna covariata influenzi il prezzo mantenendo costanti tutte le altre.
 
+I riferimenti principali di questo lavoro sono stati {% cite gelman_hill_2006 %} e {% cite wood2003 %}.
+
 Il codice completo e i dettagli tecnici sono disponibili nella repository GitHub al seguente [link](https://github.com/TommasoMenghini/Milan-Housing).
