@@ -63,13 +63,15 @@ L’obiettivo è individuare gruppi di nazioni con caratteristiche simili senza 
 
 Il modello bayesiano consente di identificare cluster interpretabili di paesi, evidenziare osservazioni ambigue o di confine, quantificare l’incertezza associata alla soluzione di clustering.
 
-<figure>
+<figure style="text-align: center;">
   <img src="/assets/img/gg_world.png"
-       alt="Clustering bayesiano Country Help">
+       alt="Clustering bayesiano Country Help"
+       style="max-width: 900px; width: 100%; height: auto;">
   <figcaption>
     Clustering bayesiano dei paesi nel dataset <em>Country Help</em>.
   </figcaption>
 </figure>
+
 
 Il grafico mostra il risultato del clustering ottenuto. Vengono individuati **sei** gruppi distinti di paesi.
 
