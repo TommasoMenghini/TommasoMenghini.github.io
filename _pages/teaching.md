@@ -7,4 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-<iframe src="https://drive.google.com/file/d/1J7BeQxxraK75nrx6VRwujYUTGEXQxZxn/preview" width="640" height="480"></iframe>
+<iframe
+  src="/assets/pdf/cv.pdf"
+  width="100%"
+  height="800">
+</iframe>
