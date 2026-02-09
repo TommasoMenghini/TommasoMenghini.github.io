@@ -7,4 +7,5 @@ repo_description_lines_max: 2
 github_repos:
   - TommasoMenghini/DPM-Models-for-Bayesian-Clustering
   - TommasoMenghini/Milan-Housing
+  - TommasoMenghini/Reliability-and-Systematic-Biases-of-Polling-Organizations
 
