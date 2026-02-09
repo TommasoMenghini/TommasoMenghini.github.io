@@ -58,4 +58,6 @@ La seconda analisi, basata sul valore assoluto dell’errore relativo, conferma 
 
 I riferimenti principali di questo lavoro sono stati {% cite gelman2021failure %} e {% cite shirani2018disentangling %}.
 
+Il codice completo e i dettagli tecnici sono disponibili nella repository GitHub al seguente [link](https://github.com/TommasoMenghini/Reliability-and-Systematic-Biases-of-Polling-Organizations).
+
 
