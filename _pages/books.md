@@ -152,3 +152,6 @@ nav_order: 5
 1. Memorie di Adriano - Marguerite Yourcenar
 2. L'omicidio di Piersanti Mattarella - Miguel Gotor
 3. Il processo - Franz Kafka
+4. La casa in collina - Cesare Pavese
+5. I fratelli Karamazov - Fëdor Dostoevskij
+6. Guerra e pace - Lev Tolstoj
