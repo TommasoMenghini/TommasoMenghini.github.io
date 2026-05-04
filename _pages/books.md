@@ -155,4 +155,5 @@ nav_order: 5
 4. La casa in collina - Cesare Pavese
 5. I fratelli Karamazov - Fëdor Dostoevskij
 6. Guerra e pace - Lev Tolstoj
-7. Dracula [EN] - Bram Stoker 
+7. Dracula [EN] - Bram Stoker
+8. Dubliners [EN] - James Joyce 
