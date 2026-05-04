@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: cv
-description: Ecco il mio curriculum vitae (aggiornato al Gennaio 2026)
+description: Ecco il mio curriculum vitae (aggiornato al Maggio 2026)
 nav: true
 nav_order: 2
 ---
