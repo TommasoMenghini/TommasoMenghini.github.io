@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-**Leggere** è una mia passione, di seguito la lista dei libri che ho letto (aggiornata al Febbraio del 2026):
+**Leggere** è una mia passione, di seguito la lista dei libri che ho letto (aggiornata al Giugno 2026):
 
 ## Pre - 2021
 
@@ -157,3 +157,5 @@ nav_order: 5
 6. Guerra e pace - Lev Tolstoj
 7. Dracula [EN] - Bram Stoker
 8. Dubliners [EN] - James Joyce 
+9. Uomini senza donne - Haruki Murakami
+10. A Moveable Feast [EN] - Ernest Hemingway
